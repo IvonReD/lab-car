@@ -355,6 +355,10 @@ form>p>a {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  [class*="col-"] {
+      width: 100%;
+  }
+
   header {
     width: 100%;
   }
