@@ -361,10 +361,15 @@ form>p>a {
   footer {
     width: 100%;
   }
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
   .container-fluid, .container, .map-area, .navbar {
   width: 100%;
 }
-#map{
+#map > div > div > div:nth-child(1) > div:nth-child(3) > div{
   width:100%;
 }
 }
